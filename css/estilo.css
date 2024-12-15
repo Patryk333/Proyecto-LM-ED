@@ -1,0 +1,68 @@
+.centrar{
+    text-align: center;
+}
+.centrarContactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.fondonegro{
+    background-color:#1a1919;
+}
+.blanco{
+    color: white;
+}
+.centrarImagen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.izquierda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+.derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+}
+#menu {
+    padding: 20px;
+    text-align: center;    
+    margin-bottom: 15px;
+    background-color: #1a1919;
+    border: 2px solid #1a1919;
+ }
+.botones {
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    border: 2px solid #1c1c1c;
+ }
+ 
+.botones:hover {
+    background-color: #ff00ff;
+    color: #ffffff;
+ }
+ td{
+    text-align: center;
+ }
+ .tabla{
+    margin: auto;
+ }
